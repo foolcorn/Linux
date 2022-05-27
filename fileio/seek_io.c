@@ -1,4 +1,8 @@
-//
-// Created by 郑毓铭 on 2022/5/26.
-//
+#include<sys/stat.h>
+#include <fcntl.h>
+#include <ctype.h>
 
+int min(int argc,char*argv[]){
+
+    exit(EXIT_SUCCESS);
+}
