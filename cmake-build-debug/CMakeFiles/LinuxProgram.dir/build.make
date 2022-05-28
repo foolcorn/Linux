@@ -52,19 +52,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\LinuxProgram
+CMAKE_SOURCE_DIR = D:\Linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\LinuxProgram\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Linux\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LinuxProgram.dir/depend.make
@@ -78,46 +78,110 @@ include CMakeFiles/LinuxProgram.dir/flags.make
 CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.obj: CMakeFiles/LinuxProgram.dir/flags.make
 CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.obj: CMakeFiles/LinuxProgram.dir/includes_C.rsp
 CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.obj: ../fileio/seek_io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LinuxProgram\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.obj"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinuxProgram.dir\fileio\seek_io.c.obj -c D:\LinuxProgram\fileio\seek_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Linux\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinuxProgram.dir\fileio\seek_io.c.obj -c D:\Linux\fileio\seek_io.c
 
 CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.i"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LinuxProgram\fileio\seek_io.c > CMakeFiles\LinuxProgram.dir\fileio\seek_io.c.i
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Linux\fileio\seek_io.c > CMakeFiles\LinuxProgram.dir\fileio\seek_io.c.i
 
 CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.s"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LinuxProgram\fileio\seek_io.c -o CMakeFiles\LinuxProgram.dir\fileio\seek_io.c.s
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Linux\fileio\seek_io.c -o CMakeFiles\LinuxProgram.dir\fileio\seek_io.c.s
 
 CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj: CMakeFiles/LinuxProgram.dir/flags.make
 CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj: CMakeFiles/LinuxProgram.dir/includes_C.rsp
 CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj: ../lib/error_function.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\LinuxProgram\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinuxProgram.dir\lib\error_function.c.obj -c D:\LinuxProgram\lib\error_function.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Linux\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinuxProgram.dir\lib\error_function.c.obj -c D:\Linux\lib\error_function.c
 
 CMakeFiles/LinuxProgram.dir/lib/error_function.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinuxProgram.dir/lib/error_function.c.i"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\LinuxProgram\lib\error_function.c > CMakeFiles\LinuxProgram.dir\lib\error_function.c.i
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Linux\lib\error_function.c > CMakeFiles\LinuxProgram.dir\lib\error_function.c.i
 
 CMakeFiles/LinuxProgram.dir/lib/error_function.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinuxProgram.dir/lib/error_function.c.s"
-	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\LinuxProgram\lib\error_function.c -o CMakeFiles\LinuxProgram.dir\lib\error_function.c.s
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Linux\lib\error_function.c -o CMakeFiles\LinuxProgram.dir\lib\error_function.c.s
+
+CMakeFiles/LinuxProgram.dir/lib/get_num.c.obj: CMakeFiles/LinuxProgram.dir/flags.make
+CMakeFiles/LinuxProgram.dir/lib/get_num.c.obj: CMakeFiles/LinuxProgram.dir/includes_C.rsp
+CMakeFiles/LinuxProgram.dir/lib/get_num.c.obj: ../lib/get_num.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Linux\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/LinuxProgram.dir/lib/get_num.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinuxProgram.dir\lib\get_num.c.obj -c D:\Linux\lib\get_num.c
+
+CMakeFiles/LinuxProgram.dir/lib/get_num.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinuxProgram.dir/lib/get_num.c.i"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Linux\lib\get_num.c > CMakeFiles\LinuxProgram.dir\lib\get_num.c.i
+
+CMakeFiles/LinuxProgram.dir/lib/get_num.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinuxProgram.dir/lib/get_num.c.s"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Linux\lib\get_num.c -o CMakeFiles\LinuxProgram.dir\lib\get_num.c.s
+
+CMakeFiles/LinuxProgram.dir/proc/modify_env.c.obj: CMakeFiles/LinuxProgram.dir/flags.make
+CMakeFiles/LinuxProgram.dir/proc/modify_env.c.obj: CMakeFiles/LinuxProgram.dir/includes_C.rsp
+CMakeFiles/LinuxProgram.dir/proc/modify_env.c.obj: ../proc/modify_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Linux\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LinuxProgram.dir/proc/modify_env.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinuxProgram.dir\proc\modify_env.c.obj -c D:\Linux\proc\modify_env.c
+
+CMakeFiles/LinuxProgram.dir/proc/modify_env.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinuxProgram.dir/proc/modify_env.c.i"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Linux\proc\modify_env.c > CMakeFiles\LinuxProgram.dir\proc\modify_env.c.i
+
+CMakeFiles/LinuxProgram.dir/proc/modify_env.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinuxProgram.dir/proc/modify_env.c.s"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Linux\proc\modify_env.c -o CMakeFiles\LinuxProgram.dir\proc\modify_env.c.s
+
+CMakeFiles/LinuxProgram.dir/main.c.obj: CMakeFiles/LinuxProgram.dir/flags.make
+CMakeFiles/LinuxProgram.dir/main.c.obj: CMakeFiles/LinuxProgram.dir/includes_C.rsp
+CMakeFiles/LinuxProgram.dir/main.c.obj: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Linux\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LinuxProgram.dir/main.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinuxProgram.dir\main.c.obj -c D:\Linux\main.c
+
+CMakeFiles/LinuxProgram.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinuxProgram.dir/main.c.i"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Linux\main.c > CMakeFiles\LinuxProgram.dir\main.c.i
+
+CMakeFiles/LinuxProgram.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinuxProgram.dir/main.c.s"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Linux\main.c -o CMakeFiles\LinuxProgram.dir\main.c.s
+
+CMakeFiles/LinuxProgram.dir/proc/longjmp.c.obj: CMakeFiles/LinuxProgram.dir/flags.make
+CMakeFiles/LinuxProgram.dir/proc/longjmp.c.obj: CMakeFiles/LinuxProgram.dir/includes_C.rsp
+CMakeFiles/LinuxProgram.dir/proc/longjmp.c.obj: ../proc/longjmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Linux\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LinuxProgram.dir/proc/longjmp.c.obj"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LinuxProgram.dir\proc\longjmp.c.obj -c D:\Linux\proc\longjmp.c
+
+CMakeFiles/LinuxProgram.dir/proc/longjmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LinuxProgram.dir/proc/longjmp.c.i"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Linux\proc\longjmp.c > CMakeFiles\LinuxProgram.dir\proc\longjmp.c.i
+
+CMakeFiles/LinuxProgram.dir/proc/longjmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LinuxProgram.dir/proc/longjmp.c.s"
+	D:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Linux\proc\longjmp.c -o CMakeFiles\LinuxProgram.dir\proc\longjmp.c.s
 
 # Object files for target LinuxProgram
 LinuxProgram_OBJECTS = \
 "CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.obj" \
-"CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj"
+"CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj" \
+"CMakeFiles/LinuxProgram.dir/lib/get_num.c.obj" \
+"CMakeFiles/LinuxProgram.dir/proc/modify_env.c.obj" \
+"CMakeFiles/LinuxProgram.dir/main.c.obj" \
+"CMakeFiles/LinuxProgram.dir/proc/longjmp.c.obj"
 
 # External object files for target LinuxProgram
 LinuxProgram_EXTERNAL_OBJECTS =
 
 LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.obj
 LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj
+LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/lib/get_num.c.obj
+LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/proc/modify_env.c.obj
+LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/main.c.obj
+LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/proc/longjmp.c.obj
 LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/build.make
 LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/linklibs.rsp
 LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/objects1.rsp
 LinuxProgram.exe: CMakeFiles/LinuxProgram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\LinuxProgram\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable LinuxProgram.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Linux\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable LinuxProgram.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LinuxProgram.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -130,6 +194,6 @@ CMakeFiles/LinuxProgram.dir/clean:
 .PHONY : CMakeFiles/LinuxProgram.dir/clean
 
 CMakeFiles/LinuxProgram.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\LinuxProgram D:\LinuxProgram D:\LinuxProgram\cmake-build-debug D:\LinuxProgram\cmake-build-debug D:\LinuxProgram\cmake-build-debug\CMakeFiles\LinuxProgram.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Linux D:\Linux D:\Linux\cmake-build-debug D:\Linux\cmake-build-debug D:\Linux\cmake-build-debug\CMakeFiles\LinuxProgram.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LinuxProgram.dir/depend
 

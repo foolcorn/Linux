@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\LinuxProgram
+CMAKE_SOURCE_DIR = D:\Linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\LinuxProgram\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Linux\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = D:\LinuxProgram\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LinuxProgram\cmake-build-debug\CMakeFiles D:\LinuxProgram\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Linux\cmake-build-debug\CMakeFiles D:\Linux\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LinuxProgram\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Linux\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -195,6 +195,114 @@ lib/error_function.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/lib/error_function.c.s
 .PHONY : lib/error_function.c.s
 
+lib/get_num.obj: lib/get_num.c.obj
+
+.PHONY : lib/get_num.obj
+
+# target to build an object file
+lib/get_num.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/lib/get_num.c.obj
+.PHONY : lib/get_num.c.obj
+
+lib/get_num.i: lib/get_num.c.i
+
+.PHONY : lib/get_num.i
+
+# target to preprocess a source file
+lib/get_num.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/lib/get_num.c.i
+.PHONY : lib/get_num.c.i
+
+lib/get_num.s: lib/get_num.c.s
+
+.PHONY : lib/get_num.s
+
+# target to generate assembly for a file
+lib/get_num.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/lib/get_num.c.s
+.PHONY : lib/get_num.c.s
+
+main.obj: main.c.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/main.c.s
+.PHONY : main.c.s
+
+proc/longjmp.obj: proc/longjmp.c.obj
+
+.PHONY : proc/longjmp.obj
+
+# target to build an object file
+proc/longjmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/proc/longjmp.c.obj
+.PHONY : proc/longjmp.c.obj
+
+proc/longjmp.i: proc/longjmp.c.i
+
+.PHONY : proc/longjmp.i
+
+# target to preprocess a source file
+proc/longjmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/proc/longjmp.c.i
+.PHONY : proc/longjmp.c.i
+
+proc/longjmp.s: proc/longjmp.c.s
+
+.PHONY : proc/longjmp.s
+
+# target to generate assembly for a file
+proc/longjmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/proc/longjmp.c.s
+.PHONY : proc/longjmp.c.s
+
+proc/modify_env.obj: proc/modify_env.c.obj
+
+.PHONY : proc/modify_env.obj
+
+# target to build an object file
+proc/modify_env.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/proc/modify_env.c.obj
+.PHONY : proc/modify_env.c.obj
+
+proc/modify_env.i: proc/modify_env.c.i
+
+.PHONY : proc/modify_env.i
+
+# target to preprocess a source file
+proc/modify_env.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/proc/modify_env.c.i
+.PHONY : proc/modify_env.c.i
+
+proc/modify_env.s: proc/modify_env.c.s
+
+.PHONY : proc/modify_env.s
+
+# target to generate assembly for a file
+proc/modify_env.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinuxProgram.dir\build.make CMakeFiles/LinuxProgram.dir/proc/modify_env.c.s
+.PHONY : proc/modify_env.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -210,6 +318,18 @@ help:
 	@echo ... lib/error_function.obj
 	@echo ... lib/error_function.i
 	@echo ... lib/error_function.s
+	@echo ... lib/get_num.obj
+	@echo ... lib/get_num.i
+	@echo ... lib/get_num.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
+	@echo ... proc/longjmp.obj
+	@echo ... proc/longjmp.i
+	@echo ... proc/longjmp.s
+	@echo ... proc/modify_env.obj
+	@echo ... proc/modify_env.i
+	@echo ... proc/modify_env.s
 .PHONY : help
 
 

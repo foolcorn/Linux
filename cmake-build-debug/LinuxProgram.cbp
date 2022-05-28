@@ -8,84 +8,102 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/LinuxProgram/cmake-build-debug"/>
+				<Option working_dir="D:/Linux/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinuxProgram">
-				<Option output="D:/LinuxProgram/cmake-build-debug/LinuxProgram.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/LinuxProgram/cmake-build-debug"/>
+				<Option output="D:/Linux/cmake-build-debug/LinuxProgram.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Linux/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/LinuxProgram/lib"/>
+					<Add directory="D:/Linux/lib"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinuxProgram"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinuxProgram"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinuxProgram/fast">
-				<Option output="D:/LinuxProgram/cmake-build-debug/LinuxProgram.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/LinuxProgram/cmake-build-debug"/>
+				<Option output="D:/Linux/cmake-build-debug/LinuxProgram.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Linux/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/LinuxProgram/lib"/>
+					<Add directory="D:/Linux/lib"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinuxProgram/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinuxProgram/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/LinuxProgram/cmake-build-debug"/>
+				<Option working_dir="D:/Linux/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/LinuxProgram/cmake-build-debug"/>
+				<Option working_dir="D:/Linux/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/LinuxProgram/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/Linux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/LinuxProgram/fileio/seek_io.c">
+		<Unit filename="D:/Linux/fileio/seek_io.c">
 			<Option target="LinuxProgram"/>
 		</Unit>
-		<Unit filename="D:/LinuxProgram/lib/error_function.c">
+		<Unit filename="D:/Linux/lib/error_function.c">
 			<Option target="LinuxProgram"/>
 		</Unit>
-		<Unit filename="D:/LinuxProgram/lib/tlpi_hdr.h">
+		<Unit filename="D:/Linux/lib/error_function.h">
 			<Option target="LinuxProgram"/>
 		</Unit>
-		<Unit filename="D:/LinuxProgram/CMakeLists.txt">
+		<Unit filename="D:/Linux/lib/get_num.c">
+			<Option target="LinuxProgram"/>
+		</Unit>
+		<Unit filename="D:/Linux/lib/get_num.h">
+			<Option target="LinuxProgram"/>
+		</Unit>
+		<Unit filename="D:/Linux/lib/tlpi_hdr.h">
+			<Option target="LinuxProgram"/>
+		</Unit>
+		<Unit filename="D:/Linux/main.c">
+			<Option target="LinuxProgram"/>
+		</Unit>
+		<Unit filename="D:/Linux/proc/longjmp.c">
+			<Option target="LinuxProgram"/>
+		</Unit>
+		<Unit filename="D:/Linux/proc/modify_env.c">
+			<Option target="LinuxProgram"/>
+		</Unit>
+		<Unit filename="D:/Linux/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

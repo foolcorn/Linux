@@ -8,4 +8,8 @@ include_directories(lib)
 add_executable(LinuxProgram
         fileio/seek_io.c
         lib/error_function.c
-        lib/tlpi_hdr.h)
+        lib/error_function.h
+        lib/get_num.c
+        lib/get_num.h
+        lib/tlpi_hdr.h
+        proc/modify_env.c main.c proc/longjmp.c)

@@ -4,8 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/LinuxProgram/fileio/seek_io.c" "D:/LinuxProgram/cmake-build-debug/CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.obj"
-  "D:/LinuxProgram/lib/error_function.c" "D:/LinuxProgram/cmake-build-debug/CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj"
+  "D:/Linux/fileio/seek_io.c" "D:/Linux/cmake-build-debug/CMakeFiles/LinuxProgram.dir/fileio/seek_io.c.obj"
+  "D:/Linux/lib/error_function.c" "D:/Linux/cmake-build-debug/CMakeFiles/LinuxProgram.dir/lib/error_function.c.obj"
+  "D:/Linux/lib/get_num.c" "D:/Linux/cmake-build-debug/CMakeFiles/LinuxProgram.dir/lib/get_num.c.obj"
+  "D:/Linux/main.c" "D:/Linux/cmake-build-debug/CMakeFiles/LinuxProgram.dir/main.c.obj"
+  "D:/Linux/proc/longjmp.c" "D:/Linux/cmake-build-debug/CMakeFiles/LinuxProgram.dir/proc/longjmp.c.obj"
+  "D:/Linux/proc/modify_env.c" "D:/Linux/cmake-build-debug/CMakeFiles/LinuxProgram.dir/proc/modify_env.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

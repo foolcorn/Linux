@@ -1,7 +1,7 @@
 #include<sys/stat.h>
 #include <fcntl.h>
 #include <ctype.h>
-#include "../lib/tlpi_hdr.h"
+#include "tlpi_hdr.h"
 
 //-实现一个小功能，读取命令行类似./seek_io testfile s100000 wabc
 //-意思是，指定testfile文件，lseek到100000的偏移量，然后写入abc
