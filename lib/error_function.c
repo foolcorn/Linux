@@ -14,7 +14,7 @@ static void outputError(Boolean useErr,int errnum,Boolean flushStdout,const char
     //-是否要打印系统提供的错误信息
     if (useErr){
         //-写个简化版系统msg
-        snprintf(errText,BUFFER_SIZE,"[sys error msg: %s]","sys error", strerror(errnum));
+        snprintf(errText,BUFFER_SIZE,"[sys error msg: %s]", strerror(errnum));
         // snprintf(errText,BUFFER_SIZE,"[%s %s]",(errnum>0&&errnum<=MAX_ENAME)?ename[errnum]:"??unknown error", strerror(errnum));
     }
     else{

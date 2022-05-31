@@ -78,7 +78,6 @@ int seek_io(int argc,char*argv[]){
                 //-提示错误，输入的命令行不按规定格式
                 cmdLineErr("Arg param must start with [R,r,s,w]:%s\n",argv[ap]);
         }
-
     }
     exit(EXIT_SUCCESS);
 }
